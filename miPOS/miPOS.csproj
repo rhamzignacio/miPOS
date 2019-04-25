@@ -51,8 +51,38 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inventory\InventoryMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\InventoryMain.Designer.cs">
+      <DependentUpon>InventoryMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\InventoryProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\InventoryProduct.Designer.cs">
+      <DependentUpon>InventoryProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POS\MainPOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\MainPOS.Designer.cs">
+      <DependentUpon>MainPOS.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\InventoryMain.resx">
+      <DependentUpon>InventoryMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\InventoryProduct.resx">
+      <DependentUpon>InventoryProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\MainPOS.resx">
+      <DependentUpon>MainPOS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

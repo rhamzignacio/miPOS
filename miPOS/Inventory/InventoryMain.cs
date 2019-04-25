@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace miPOS
+namespace miPOS.Inventory
 {
-    public partial class Form1 : Form
+    public partial class InventoryMain : Form
     {
-        public Form1()
+        public InventoryMain()
         {
             InitializeComponent();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
